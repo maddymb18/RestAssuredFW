@@ -44,7 +44,7 @@ public class TestBase {
 	
 	@BeforeTest
 	public static void setUp() {
-		
+		// test for git
 		RestAssured.baseURI = prop.getProperty("uri");
 //		if(prop.getProperty("env").equalsIgnoreCase("QA")) {
 //			RestAssured.basePath="/products";	
